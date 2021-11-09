@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divDescuentos{
+    height: 38px;
+    position: relative;
+    background-color: #1CD1B0;
+}
+
+.hDescuentos{
+    margin: 0px;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.divHeroes{
+    height: 101px;
+    position: relative;
+    background-color: #00669F;
+}
+
+.hHeroes{
+    margin: 0px;
+    position: absolute;
+    top: 28px;
+    bottom: 26px;
+    left: 28px;
+}
+
+footer{
+    position: relative;
+    background-color: #00669F;
+    height: 51px;
+}
+
+.pFooter{
+    margin: 0px;
+    position: absolute;
+    top: 16px;
+    bottom: 16px;
+    left: 16px;
+    color: #FFF9F9;
+}
+
+main{
+    height: 833px;
+    position: relative;
+}
+
+.carta{
+    position: absolute;
+    height: 527px;
+    width: 300px;
+    top: 154px;
+}
+
+.batman1{
+    left: 32px;
+}
+
+.harley{
+    left: 362px;
+}
+
+.batman2{
+    left: 692px;
+}
+
+.banner{
+    border-radius: 16px 16px 0px 0px;
+    height: 193px;
+    position: relative;
+}
+
+.banBatman{
+    background-image: url(/Ejercicio_c10/root/img/fondo-batman.png);
+}
+
+.banHarley{
+    background-image: url(/Ejercicio_c10/root/img/fondo-harley.png);
+}
+
+.rojo{
+    color: #CC2424;
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+}
+
+.ft{
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    border-radius: 61px;
+    left: 89px;
+    top: 126px;
+    z-index: 10;
+}
+
+.divTexto{
+    position: relative;
+    height: 336px;
+    background-color: #F3F3F3;
+}
+
+.tituloHarley{
+    margin: 0px;
+    position: absolute;
+    top: 74px;
+    left: 65px;
+    font-size: 30px;
+}
+
+.tituloBatman{
+    margin: 0px;
+    position: absolute;
+    top: 74px;
+    left: 89px;
+    font-size: 30px;
+}
+
+.texto{
+    margin: 0px;
+    position: absolute;
+    top: 119px;
+    left: 16px;
+    width: 217px;
+    height: 113px;
+}
+
+.boton{
+    padding: 15px 35.78px 15.52px 37px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    position: absolute;
+    top: 269px;
+    left: 85px;
+}
