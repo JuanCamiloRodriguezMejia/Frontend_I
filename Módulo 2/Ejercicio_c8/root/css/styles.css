@@ -16,6 +16,10 @@ h1{
     background-size: cover;
 }
 
+.azul{
+    color: #005677;
+}
+
 .titulo{
     height: 193px;
 }
@@ -45,6 +49,10 @@ footer{
     font-size: 20px;
 }
 
+.parr{
+    font-size: large;
+}
+
 .subtitulos{
     margin: 0px;
     background-color: #C4C4C4;
@@ -59,6 +67,10 @@ footer{
 
 .exp{
     height: 314px;
+}
+
+.blanco{
+    color: white;
 }
 
 .fotoPerfil{
