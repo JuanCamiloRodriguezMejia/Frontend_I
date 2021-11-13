@@ -3,76 +3,117 @@
     <head>
         <meta charset="UTF-8">
         <title>Front Cat&Dog</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+        <link href="/Módulo 2/Ejercicio_c6/root/css/styles.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <nav>
-                <p>Grandes ofertas en comederos</p>
+            <nav class="navIdiomas">
+                <p class="menuIdioma">Grandes ofertas en comederos</p>
 
-                <ul type="none">
-                    <li><select name="Lang">
+                <div class="divSelectores">
+                    <select class="selectorIdioma" name="Lang">
                         <option value="Esp" selected>Español</option>
-                    </select></li>
-
-                    <li><select name="Pais">
+                    </select>
+    
+                    <select class="selectorIdioma" name="Pais">
                         <option value="Arg" selected>ARG$</option>
-                    </select></li>
-                </ul>
+                    </select>
+                </div>
             </nav>
 
-            <nav>
-                <img src="/Ejercicio_c6/root/img/Logo.jfif" alt="Imagen Logo"/>
+            <nav class="navMenu">
+                <img src="/Módulo 2/Ejercicio_c6/root/img/Logo.png" alt="Logo" class="logo">
 
-                <ul type="none">
-                    <li><a href="#">Categorías</a></li>
-                    <li><a href="#">Pets</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contáctanos</a></li>
+                <ul class="ulNav" type="none">
+                    <li><a href="#" class="ali"><i class="fas fa-paw blanco"></i>Categorías</a></li>
+                    <li><a href="#" class="ali"><i class="fas fa-paw blanco"></i>Pets</a></li>
+                    <li><a href="#" class="ali"><i class="fas fa-paw blanco"></i>Nosotros</a></li>
+                    <li><a href="#" class="ali"><i class="fas fa-paw blanco"></i>Contáctanos</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section>
-                <img src="/Ejercicio_c6/root/img/Background.jfif" alt="Imagen Background"/>
-                <h2>¡Es un placer tenerte aquí!</h2>
-                <h4>¡Comederos en descuento!</h4>
-                <a href="#">COMEDEROS</a>
+            <section class="banner">
+                <div class="divBanner">
+                    <h2 class="tituloBanner">¡Es un placer tenerte aquí!</h2>
+                    <p class="pBanner">¡Comederos en descuento!</p>
+                    <a href="#" class="aBanner">COMEDEROS</a>
+                </div>
             </section>
 
             <section>
-                <img src="/Ejercicio_c6/root/img/Patita.jfif" alt="Imagen patita"/>
-                <h1>Productos Destacados</h1>
+                <div class="divPatita">
+                    <i class="fas fa-paw patita"></i>
+                    <h1 class="tituloPatita">Productos Destacados</h1>
 
-                <nav>
-                    <a href="#">Comederos - </a>
-                    <a href="#">Accesorios - </a>
-                    <a href="#">Comida</a>
-                </nav>
+                    <nav class="navPatita">
+                        <a href="#" class="aPatita">Comederos</a>
+                        <p class="pPatita">-</p>
+                        <a href="#" class="aPatita">Accesorios</a>
+                        <p class="pPatita">-</p>
+                        <a href="#" class="aPatita">Comida</a>
+                    </nav>
+                </div>
 
-                <article>
-                    <img src="/Ejercicio_c6/root/img/Producto1.jfif" alt="Juguete churrasquito"/>
-                    <h4>Juguete churrasquito</h4>
-                    <p>$150</p>
-                </article>
+                <div class="divProductos">
+                    <article class="producto">
+                        <img src="/Módulo 2/Ejercicio_c6/root/img/churrasquito.png" alt="Juguete churrasquito"/>
+                        <h4>Juguete churrasquito</h4>
+                        <p class="precio">$150</p>
+                    </article>
+    
+                    <article class="producto">
+                        <img src="/Módulo 2/Ejercicio_c6/root/img/comedero.png" alt="Comedero para perro"/>
+                        <h4>Comedero para perro</h4>
+                        <p class="precio">$250</p>
+                    </article>
+    
+                    <article class="producto">
+                        <img src="/Módulo 2/Ejercicio_c6/root/img/Huesito.png" alt="Juguete huesito"/>
+                        <h4>Juguete huesito</h4>
+                        <p class="precio">$650</p>
+                    </article>
+                </div>
+            </section>
 
-                <article>
-                    <img src="/Ejercicio_c6/root/img/Producto2.jfif" alt="Comedero para perro"/>
-                    <h4>Comedero para perro</h4>
-                    <p>$250</p>
-                </article>
-
-                <article>
-                    <img src="/Ejercicio_c6/root/img/Producto3.jfif" alt="Juguete huesito"/>
-                    <h4>Juguete huesito</h4>
-                    <p>$650</p>
-                </article>
+            <section class="formulario">
+                <h2>Contáctanos</h2>
             </section>
         </main>
 
         <footer>
-            <p>Todos los derechos reservados Front End</p>
+            <div class="contenedor1">
+                <div class="contenedor1-1">
+                    <i class="far fa-envelope correo"></i>
+                    <h3>Suscríbete para más novedades</h3>
+                </div>
+            </div>
+
+            <div class="contenedor2">
+                <div class="contenedor2-1">
+                    <i class="fas fa-map-marker-alt icono"></i>
+                    <i class="fas fa-phone-alt icono medio"></i>
+                    <i class="fas fa-at icono"></i>
+                    <h3 class="tituloFooter">Localidad</h3>
+                    <p class="descFooter">Calle - provincia</p>
+                    <h3 class="tituloFooter telefono">Teléfono</h3>
+                    <p class="descFooter">Número de teléfono</p>
+                    <h3 class="tituloFooter telefono">Correo Electrónico</h3>
+                    <p class="descFooter">Dirección de correo</p>
+                </div>
+
+                <img src="/Módulo 2/Ejercicio_c6/root/img/LogoFooter.png" alt="Logo" class="logoFooter">
+            </div>
+
+            <div class="contenedor3">
+                <p class="pFooter">Todos los derechos reservados Front End</p>
+            </div>
         </footer>
     </body>
 </html>

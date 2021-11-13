@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+.navIdiomas{
+    background-color: #222222;
+    color: white;
+    height: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuIdioma{
+    margin-left: 5vw;
+}
+
+.divSelectores{
+    margin-right: 2vw;
+}
+
+.blanco{
+    color: white;
+}
+
+.selectorIdioma{
+    background-color: #222222;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 10px;
+    border: 0px;
+}
+
+.navMenu{
+    background-color: #F0A83E;
+    height: 65px;
+    padding: 0px 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ulNav{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.ali{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    height: 23px;
+}
+
+.banner{
+    background-image: url('/Módulo\ 2/Ejercicio_c6/root/img/bowl.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.divBanner{
+    text-align: center;
+    padding: 20px;
+}
+
+.tituloBanner{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.pBanner{
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.aBanner{
+    padding: 15px 23px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.patita{
+    font-size: 60px;
+    color: #F0A83E;
+}
+
+.divPatita{
+    margin-top: 30px;
+    text-align: center
+}
+
+.tituloPatita{
+    font-size: 40px
+}
+
+.aPatita{
+    text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+}
+
+.navPatita{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pPatita{
+    margin: 0px 20px;
+}
+
+.divProductos{
+    display: flex;
+    margin: 3vw 7vw 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto{
+    text-align: center;
+    background-color: #FBFAF6;
+}
+
+.precio{
+    color: #F0A83E;
+    margin-bottom: 6px;
+}
+
+/* Column para el formulario, botones de enviar y resetear en un div con flex row */
+.formulario{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.contenedor1{
+    display: flex;
+    background-color: #F0A83E;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor1-1{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+.correo{
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+}
+
+.contenedor2{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 284px;
+}
+
+.logoFooter{
+    margin: 5vw;
+}
+
+.contenedor3{
+    text-align: center;
+    color: white;
+    background-color: #222222;
+}
+
+.pFooter{
+    padding: 4px 0px;
+}
+
+.icono{
+    color: #FFFFFF;
+    font-size: 40px;
+    background-color: #8A8787;
+    border-radius: 50px;
+    border: #786960 4px solid;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+.contenedor2-1{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    height: 244px;
+    flex-wrap: wrap;
+}
+
+.medio{
+    margin: 20px 25px 20px 0px;
+}
+
+.tituloFooter{
+    color: white;
+    font-size: 20px;
+}
+
+.telefono{
+    margin-top: 43.56px;
+}
+
+.descFooter{
+    color: #8A8787;
+}
