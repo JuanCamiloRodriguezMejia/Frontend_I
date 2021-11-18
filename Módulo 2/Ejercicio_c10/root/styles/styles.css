@@ -33,42 +33,29 @@ body{
 }
 
 footer{
-    position: relative;
     background-color: #00669F;
     height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pFooter{
     margin: 0px;
-    position: absolute;
-    top: 16px;
-    bottom: 16px;
-    left: 16px;
     color: #FFF9F9;
+    font-size: 14px;
 }
 
 main{
-    height: 833px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .carta{
-    position: absolute;
-    height: 527px;
     width: 300px;
-    top: 154px;
-}
-
-.batman1{
-    left: 32px;
-}
-
-.harley{
-    left: 362px;
-}
-
-.batman2{
-    left: 692px;
+    margin: 10vh 2vw 5vh 2vw;
 }
 
 .banner{
@@ -78,11 +65,11 @@ main{
 }
 
 .banBatman{
-    background-image: url(/Ejercicio_c10/root/img/fondo-batman.png);
+    background-image: url('/Módulo 2/Ejercicio_c10/root/img/fondo-batman.png');
 }
 
 .banHarley{
-    background-image: url(/Ejercicio_c10/root/img/fondo-harley.png);
+    background-image: url('/Módulo 2/Ejercicio_c10/root/img/fondo-harley.png');
 }
 
 .rojo{
@@ -131,6 +118,7 @@ main{
     left: 16px;
     width: 217px;
     height: 113px;
+    box-sizing: border-box;
 }
 
 .boton{
@@ -140,4 +128,5 @@ main{
     position: absolute;
     top: 269px;
     left: 85px;
+    text-decoration: none;
 }
