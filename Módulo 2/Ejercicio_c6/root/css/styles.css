@@ -53,6 +53,10 @@ body{
     justify-content: space-between;
 }
 
+.hamburguesa{
+    display: none;
+}
+
 .ali{
     color: white;
     text-decoration: none;
@@ -63,7 +67,7 @@ body{
 }
 
 .banner{
-    background-image: url('/Módulo\ 2/Ejercicio_c6/root/img/bowl.png');
+    background-image: url('/Módulo 2/Ejercicio_c6/root/img/bowl.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
@@ -162,7 +166,6 @@ body{
 .contenedor1{
     display: flex;
     background-color: #F0A83E;
-    height: 60px;
     justify-content: space-between;
     align-items: center;
 }
@@ -173,6 +176,7 @@ body{
     font-size: 20px;
     align-items: center;
     flex-wrap: wrap;
+    margin: 2vh;
 }
 
 .correo{
@@ -219,6 +223,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 244px;
+    width: 260px;
     flex-wrap: wrap;
 }
 
@@ -238,4 +243,37 @@ body{
 .descFooter{
     color: #8A8787;
     font-size: 10px;
+}
+
+@media(max-width: 1024px){
+
+    .ulNav{
+        display: none;
+    }
+
+    .hamburguesa{
+        color: white;
+        font-size: 20px;
+        display: inline-block;
+    }
+}
+
+@media(max-width: 768px){
+
+    .divBanner{
+        text-align: right;
+    }
+}
+
+@media(max-width: 426px){
+
+    .navIdiomas{
+        display: none;
+    }
+
+    .contenedor2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
