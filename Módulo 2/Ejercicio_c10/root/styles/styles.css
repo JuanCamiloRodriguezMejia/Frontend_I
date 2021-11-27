@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
@@ -6,30 +11,45 @@ body{
 
 .divDescuentos{
     height: 38px;
-    position: relative;
     background-color: #1CD1B0;
+    display: flex;
+    align-items: center;
 }
 
 .hDescuentos{
-    margin: 0px;
-    position: absolute;
-    top: 10px;
-    bottom: 10px;
-    left: 10px;
+    margin-left: 10px;
 }
 
 .divHeroes{
     height: 101px;
-    position: relative;
+    display: flex;
+    align-items: center;
     background-color: #00669F;
 }
 
 .hHeroes{
-    margin: 0px;
-    position: absolute;
-    top: 28px;
-    bottom: 26px;
-    left: 28px;
+    margin-left: 28px;
+}
+
+.navMenu{
+    background-color: #001D2D;
+    height: 4vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.enlaces{
+    margin: 0px 2vw;
+    width: 15vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: white;
 }
 
 footer{
@@ -51,6 +71,16 @@ main{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+#aniadir{
+    background-color: #00669F;
+    padding: 10px 25px;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+    order: 1;
 }
 
 .carta{
@@ -129,4 +159,81 @@ main{
     top: 269px;
     left: 85px;
     text-decoration: none;
+}
+
+/* Formularios */
+.formRegistro{
+    width: 28vw;
+    height: 50vh;
+    margin: 14vh 0;
+}
+
+.input{
+    width: 100%;
+    height: 8%;
+    border: black solid 2px;
+    font-size: large;
+    margin-bottom: 2%;
+}
+
+#comentario{
+    width: 100%;
+    height: 30%;
+    border: black solid 2px;
+    font-size: large;
+    margin-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botonRegistro{
+    width: 49%;
+    height: 10%;
+    margin: 7% 0 2% 0;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.verde{
+    background-color: #1CD1B0;
+    color: black;
+}
+
+.gris{
+    background-color: #888888;
+    color: white;
+}
+
+.cuentaTexto{
+    text-align: center;
+}
+
+.tituloForm{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.botonLogin{
+    width: 100%;
+    height: 10%;
+    margin: 7% 0 2% 0;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.input:focus, #comentario:focus{
+    box-shadow: 5px 4px 0px 0px rgba(245,209,62,0.83);
+    -webkit-box-shadow: 5px 4px 0px 0px rgba(245,209,62,0.83);
+    -moz-box-shadow: 5px 4px 0px 0px rgba(245,209,62,0.83);
+}
+
+.verde:hover, .gris:hover{
+    background-color: black;
+    color: white;
+}
+
+.formRegistro :nth-child(n)::placeholder{
+    font-size: 14px;
 }
