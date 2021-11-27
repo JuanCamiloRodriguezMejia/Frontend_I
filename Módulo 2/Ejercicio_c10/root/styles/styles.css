@@ -224,9 +224,9 @@ main{
 }
 
 .input:focus, #comentario:focus{
-    box-shadow: 5px 4px 0px 0px rgba(245,209,62,0.83);
-    -webkit-box-shadow: 5px 4px 0px 0px rgba(245,209,62,0.83);
-    -moz-box-shadow: 5px 4px 0px 0px rgba(245,209,62,0.83);
+    box-shadow: 5px 4px 0px 0px rgba(0,102,159,0.83);
+    -webkit-box-shadow: 5px 4px 0px 0px rgba(0,102,159,0.83);
+    -moz-box-shadow: 5px 4px 0px 0px rgba(0,102,159,0.83);
 }
 
 .verde:hover, .gris:hover{
