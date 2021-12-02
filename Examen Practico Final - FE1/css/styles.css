@@ -1,0 +1,324 @@
+/* Normalización y estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+/* Header y botón rojo */
+.headerIndex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7vh 12vw;
+}
+
+.enlaces{
+    display: flex;
+    list-style: none;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: rgb(35, 44, 81);
+    margin: 0 1rem;
+    transition: all 0.3s;
+}
+
+.enlaces a:hover{
+    color: rgb(143, 148, 167);
+}
+
+.boton{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: rgb(242, 95, 58);
+    border-radius: 50px;
+    color: #FFFF;
+    transition: all 0.3s;
+}
+
+.boton:hover{
+    box-shadow: 0px 16px 31px -11px rgba(242,95,58,0.75);
+    -webkit-box-shadow: 0px 16px 31px -11px rgba(242,95,58,0.75);
+    -moz-box-shadow: 0px 16px 31px -11px rgba(242,95,58,0.75);
+    background-color: rgba(242, 95, 58, 0.8);
+}
+
+/* Main - Primera sección */
+.contenedorTextos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10vh 12vw;
+}
+
+.subcontenedor{
+    width: 50%;
+}
+
+.textoSecundario{
+    width: 60%;
+}
+
+.descripciones{
+    width: 40%;
+}
+
+/* Estilos del artículo principal */
+.tituloPrincipal{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    color: rgb(35, 44, 81);
+}
+
+.textoPrincipal{
+    color: rgb(143, 148, 167);
+    line-height: 1.51rem;
+    margin: 1rem 0 2rem 0;
+}
+
+/* Estilos del artículo secundario */
+.textoSecundario{
+    margin-top: 5rem;
+}
+
+.textoSecundario h2{
+    color: rgb(35, 44, 81);
+    font-size: 2rem;
+}
+
+.textoSecundario p{
+    color: rgb(143, 148, 167);
+    line-height: 1.51rem;
+    margin: 1.5rem 0;
+}
+
+/* Estilos del artículo terciario */
+.descripciones{
+    margin-top: 5rem;
+}
+
+.descripciones h3{
+    position: relative;
+    color: rgb(35, 44, 81);
+}
+
+.descripciones p{
+    position: relative;
+    color: rgb(143, 148, 167);
+    line-height: 1.595rem;
+    margin: 1rem 0 2rem 0;
+}
+
+#uno::before{
+    content: '01';
+    position: absolute;
+    left: -25%;
+    bottom: -0.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    color: #FFFF;
+}
+
+#dos::before{
+    content: '02';
+    position: absolute;
+    left: -25%;
+    bottom: -0.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    color: #FFFF;
+}
+
+#tres::before{
+    content: '03';
+    position: absolute;
+    left: -25%;
+    bottom: -0.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    color: #FFFF;
+}
+
+/* Estilos sección de clientes */
+.secClientes{
+    text-align: center;
+}
+
+.secClientes h2{
+    color: rgb(35, 44, 81);
+    margin-bottom: 7rem;
+    font-size: 2rem;
+}
+
+.contenedorClientes{
+    margin: 0 6vw 3.5rem 6vw;
+    display: flex;
+}
+
+.cliente{
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.cliente h3{
+    color: rgb(35, 44, 81);
+    margin-bottom: 1rem;
+}
+
+.cliente img{
+    width: 15%;
+    position: relative;
+    bottom: 20%;
+}
+
+.cliente p{
+    color: rgb(143, 148, 167);
+    line-height: 1.595rem;
+    margin: 0 2rem 2rem 2rem;
+}
+
+/* Estilos sección naranja */
+.secNaranja{
+    background-color: rgb(242, 95, 58);
+    margin-top: 20vh;
+}
+
+.contenedorNaranja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFF;
+    height: 20vh;
+    margin: 0 8vw;
+}
+
+.contenedorNaranja h2{
+    font-size: 2rem;
+}
+
+.botonBlanco{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #FFFF;
+    border-radius: 50px;
+    color: rgb(242, 95, 58);
+    transition: all 0.3s;
+}
+
+.botonBlanco:hover{
+    box-shadow: 0px 16px 31px -11px rgba(100, 100, 100, 0.75);
+    -webkit-box-shadow: 0px 16px 31px -11px rgba(100, 100, 100, 0.75);
+    -moz-box-shadow: 0px 16px 31px -11px rgba(100, 100, 100, 0.75);
+}
+
+/* Estilos para el footer */
+.footer{
+    background-color: rgb(29, 30, 37);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.icono{
+    font-size: 1.4rem;
+    margin: 4rem 0.5rem 0 0.5rem;
+}
+
+.contenedorListas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listaFooter{
+    list-style: none;
+    font-size: 0.85rem;
+}
+
+.margen{
+    margin-right: 20vw;
+}
+
+.listaFooter li{
+    margin-bottom: 1rem;
+}
+
+.hoverNaranja{
+    color: #FFFF;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.hoverNaranja:hover{
+    color: rgb(242, 95, 58);
+}
+
+.formFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.copyr{
+    color: rgb(143, 148, 167);
+    font-size: 0.7rem;
+    margin-top: 3rem;
+}
+
+#email{
+    height: 2.5rem;
+    border-radius: 30px;
+    border-style: none;
+    padding-left: 0.5rem;
+}
+
+#email:invalid{
+    border: 2px #ff0000 solid;
+    color: #ff0000;
+}
+
+#email:invalid::after{
+    content: 'Please insert a valid email';
+    color: #ff0000;
+}
+
+#enviar{
+    height: 2.5rem;
+    width: 3.2rem;
+    border-radius: 30px;
+    border-style: none;
+    color: #FFFF;
+    background-color: rgb(242, 95, 58);
+    transition: background-color 0.3s;
+}
+
+#enviar:hover{
+    background-color: rgb(247, 125, 95);
+    cursor: pointer;
+}
+
+#email:invalid ~ .invalid::after{
+    content: 'Please insert a valid email';
+    margin: 0.6rem 0 0 0.6rem;
+    font-size: 0.5rem;
+    color: #ff0000;
+    font-style: italic;
+}
